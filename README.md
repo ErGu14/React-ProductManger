@@ -10,7 +10,6 @@ Bu proje, React kullanarak bir ürün yönetim sistemi geliştirmek amacıyla ol
 - Ürün ekleme
 - Ürün düzenleme
 - Ürün silme
-- Kullanıcıları listeleme
 - Hesaptan çıkış yapma
 
 ---
