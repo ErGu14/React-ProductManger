@@ -1,6 +1,6 @@
 # React Projesi: Ürün Yönetimi
 
-Bu proje, React kullanarak bir ürün yönetim sistemi geliştirmek amacıyla oluşturulmuştur. Kullanıcılar ürün ekleme, düzenleme, silme işlemleri gerçekleştirebilir ve ayrıca kullanıcıları listeleme gibi ek işlevselliklere sahiptir.
+Bu proje, React kullanarak bir ürün yönetim sistemi geliştirmek amacıyla oluşturulmuştur. Kullanıcılar ürün ekleme, düzenleme, silme işlemleri gerçekleştirebilir.
 
 ---
 
