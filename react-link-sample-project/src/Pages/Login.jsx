@@ -1,9 +1,9 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
 function Login() {
-    const [email, setEmail] = useState("");
-    const [password, setPassword] = useState("");
+    const [email, setEmail] = useState("user1@example.com");
+    const [password, setPassword] = useState("password1");
     const navigate = useNavigate();
 
     async function EnterAccount(e) {
@@ -16,23 +16,26 @@ function Login() {
                 "Content-Type": "application/json",
             },
             body: JSON.stringify(data),
-        });
+        }).then((res) => res.json());
 
-        const result = response.headers.get("Content-Length") > 0
-            ? await response.json()
-            : {};
-
-        if (response.ok) {
-            alert("Giriş Başarılı");
-            navigate("/home");
+        if (response.isSuccessful) {
+            localStorage.setItem("token","This is a token");
+            navigate("/");
         } else {
-            alert(result.Error || "Bilgiler Yanlış Tekrar Deneyin");
+            alert(response.errorMessages[0]);
         }
     }
 
     function gotoRegister() {
         navigate("/register");
     }
+
+    useEffect(() => {
+        const token = localStorage.getItem("token");
+        if(token){
+            navigate("/");
+        }
+    },[]);
 
     return (
         <>
@@ -53,12 +56,14 @@ function Login() {
             }}>
                 <label>Email:</label>
                 <input
+                    value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     type="email"
                     required
                 />
                 <label>Password:</label>
                 <input
+                value={password}
                     onChange={(e) => setPassword(e.target.value)}
                     type="password"
                     required

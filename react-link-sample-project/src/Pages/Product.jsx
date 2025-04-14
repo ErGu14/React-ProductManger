@@ -58,8 +58,9 @@ function Product() {
 
     return (
         <>
+        <div style={{textAlign:"center"}}>
             <button
-                onClick={navigateHome}
+                onClick={() => navigate("/products/create")}
                 style={{
                     padding: "10px 20px",
                     backgroundColor: "#f44336",
@@ -70,8 +71,9 @@ function Product() {
                     marginTop: "20px",
                 }}
             >
-                     Geri
+                     Ekle
              </button>
+        </div>
             <h1 style={{ textAlign: "center", marginBottom: "20px" }}>Ürünler</h1>
             <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}>
                 {products.map((product, index) => (

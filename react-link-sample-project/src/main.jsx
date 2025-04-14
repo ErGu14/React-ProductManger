@@ -8,15 +8,15 @@ import Product from './Pages/Product'
 import AddProduct from './Pages/AddProduct'
 const router = createBrowserRouter([
   {
-    path: "",
+    path: "/login",
+    element: <Login />
+  },
+  {
+    path: "/",
     element: <App />,
     children: [
       {
         path: "/",
-        element: <Login />
-      },
-      {
-        path: "/home",
         element: <Home />
       },
 
@@ -25,13 +25,18 @@ const router = createBrowserRouter([
         element: <Register />
       },
       {
-        path: "/product",
-        element: <Product />
+        path: "/products",
+        children: [
+          {
+            path: "/products",
+            element: <Product />
+          },
+          {
+            path: "/products/create",
+            element: <AddProduct />
+          }
+        ]
       },
-      {
-        path: "/addproduct",
-        element: <AddProduct />
-      }
     ]
 
   }

@@ -10,7 +10,8 @@
         "dependencies": {
           "Microsoft.AspNetCore.OpenApi": "9.0.4",
           "Microsoft.EntityFrameworkCore.InMemory": "9.0.4",
-          "Scalar.AspNetCore": "2.1.13"
+          "Scalar.AspNetCore": "2.1.13",
+          "TS.Result": "9.0.1"
         },
         "runtime": {
           "SampleAPI.dll": {}
@@ -167,6 +168,14 @@
             "fileVersion": "2.1.13.0"
           }
         }
+      },
+      "TS.Result/9.0.1": {
+        "runtime": {
+          "lib/net9.0/TS.Result.dll": {
+            "assemblyVersion": "9.0.1.0",
+            "fileVersion": "9.0.1.0"
+          }
+        }
       }
     }
   },
@@ -280,6 +289,13 @@
       "sha512": "sha512-UlzUZ6ba67hVJF8PR00+O5C/jhjpwCSTdpo3qQgEKwS1bkYFr4+rAe9QkTRk6TQfUBy2Cx8t6CN8Aw3vp3tsug==",
       "path": "scalar.aspnetcore/2.1.13",
       "hashPath": "scalar.aspnetcore.2.1.13.nupkg.sha512"
+    },
+    "TS.Result/9.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sf3+wOoNYcSWJyRjjU+gwTa75Ynvue5KmhSNfBAqI0zgk0UIXjunNF+Kowr53I4UTzINl3Kcqcz0zxWwtgK1FA==",
+      "path": "ts.result/9.0.1",
+      "hashPath": "ts.result.9.0.1.nupkg.sha512"
     }
   }
 }

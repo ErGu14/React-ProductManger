@@ -7,7 +7,6 @@ export async function CreateProduct(product) {
             "Content-Type": "application/json"
         },
         body : JSON.stringify(product)
-    })
-    const createdData = await response.json()
-    return createdData;
+    }).then(s => s.json());
+    return response;
 }

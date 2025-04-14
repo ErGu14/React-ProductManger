@@ -1,22 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\Kodlama\\React Class\\MyFiles\\1.Hafta\\\u00D6devler\\Link \u00C7al\u0131\u015Fmas\u0131 (login vb)\\OrnekAPI\\SampleAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\PC\\Downloads\\React-ProductManger-main\\OrnekAPI\\SampleAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{819E0CD9-76AC-45E9-95FE-CF969E6F468B}|SampleAPI\\SampleAPI.csproj|f:\\kodlama\\react class\\myfiles\\1.hafta\\\u00F6devler\\link \u00E7al\u0131\u015Fmas\u0131 (login vb)\\ornekapi\\sampleapi\\sampleapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{819E0CD9-76AC-45E9-95FE-CF969E6F468B}|SampleAPI\\SampleAPI.csproj|c:\\users\\pc\\downloads\\react-productmanger-main\\ornekapi\\sampleapi\\sampleapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{819E0CD9-76AC-45E9-95FE-CF969E6F468B}|SampleAPI\\SampleAPI.csproj|solutionrelative:sampleapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{819E0CD9-76AC-45E9-95FE-CF969E6F468B}|SampleAPI\\SampleAPI.csproj|f:\\kodlama\\react class\\myfiles\\1.hafta\\\u00F6devler\\link \u00E7al\u0131\u015Fmas\u0131 (login vb)\\ornekapi\\sampleapi\\sampleapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{819E0CD9-76AC-45E9-95FE-CF969E6F468B}|SampleAPI\\SampleAPI.csproj|c:\\users\\pc\\downloads\\react-productmanger-main\\ornekapi\\sampleapi\\sampleapi\\applicationdbcontexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819E0CD9-76AC-45E9-95FE-CF969E6F468B}|SampleAPI\\SampleAPI.csproj|solutionrelative:sampleapi\\applicationdbcontexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819E0CD9-76AC-45E9-95FE-CF969E6F468B}|SampleAPI\\SampleAPI.csproj|c:\\users\\pc\\downloads\\react-productmanger-main\\ornekapi\\sampleapi\\sampleapi\\dtos\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819E0CD9-76AC-45E9-95FE-CF969E6F468B}|SampleAPI\\SampleAPI.csproj|solutionrelative:sampleapi\\dtos\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819E0CD9-76AC-45E9-95FE-CF969E6F468B}|SampleAPI\\SampleAPI.csproj|c:\\users\\pc\\downloads\\react-productmanger-main\\ornekapi\\sampleapi\\sampleapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{819E0CD9-76AC-45E9-95FE-CF969E6F468B}|SampleAPI\\SampleAPI.csproj|solutionrelative:sampleapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819E0CD9-76AC-45E9-95FE-CF969E6F468B}|SampleAPI\\SampleAPI.csproj|c:\\users\\pc\\downloads\\react-productmanger-main\\ornekapi\\sampleapi\\sampleapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{819E0CD9-76AC-45E9-95FE-CF969E6F468B}|SampleAPI\\SampleAPI.csproj|solutionrelative:sampleapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{819E0CD9-76AC-45E9-95FE-CF969E6F468B}|SampleAPI\\SampleAPI.csproj|f:\\kodlama\\react class\\myfiles\\1.hafta\\\u00F6devler\\link \u00E7al\u0131\u015Fmas\u0131 (login vb)\\ornekapi\\sampleapi\\sampleapi\\dtos\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{819E0CD9-76AC-45E9-95FE-CF969E6F468B}|SampleAPI\\SampleAPI.csproj|c:\\users\\pc\\downloads\\react-productmanger-main\\ornekapi\\sampleapi\\sampleapi\\dtos\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{819E0CD9-76AC-45E9-95FE-CF969E6F468B}|SampleAPI\\SampleAPI.csproj|solutionrelative:sampleapi\\dtos\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{819E0CD9-76AC-45E9-95FE-CF969E6F468B}|SampleAPI\\SampleAPI.csproj|f:\\kodlama\\react class\\myfiles\\1.hafta\\\u00F6devler\\link \u00E7al\u0131\u015Fmas\u0131 (login vb)\\ornekapi\\sampleapi\\sampleapi\\dtos\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{819E0CD9-76AC-45E9-95FE-CF969E6F468B}|SampleAPI\\SampleAPI.csproj|solutionrelative:sampleapi\\dtos\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,15 +34,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\React-ProductManger-main\\OrnekAPI\\SampleAPI\\SampleAPI\\ApplicationDbContexts\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "SampleAPI\\ApplicationDbContexts\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\React-ProductManger-main\\OrnekAPI\\SampleAPI\\SampleAPI\\ApplicationDbContexts\\AppDbContext.cs",
+              "RelativeToolTip": "SampleAPI\\ApplicationDbContexts\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T11:11:37.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\React-ProductManger-main\\OrnekAPI\\SampleAPI\\SampleAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "SampleAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\React-ProductManger-main\\OrnekAPI\\SampleAPI\\SampleAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "SampleAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-13T11:11:12.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "UpdateProductDTO.cs",
-              "DocumentMoniker": "F:\\Kodlama\\React Class\\MyFiles\\1.Hafta\\\u00D6devler\\Link \u00C7al\u0131\u015Fmas\u0131 (login vb)\\OrnekAPI\\SampleAPI\\SampleAPI\\DTOs\\UpdateProductDTO.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\React-ProductManger-main\\OrnekAPI\\SampleAPI\\SampleAPI\\DTOs\\UpdateProductDTO.cs",
               "RelativeDocumentMoniker": "SampleAPI\\DTOs\\UpdateProductDTO.cs",
-              "ToolTip": "F:\\Kodlama\\React Class\\MyFiles\\1.Hafta\\\u00D6devler\\Link \u00C7al\u0131\u015Fmas\u0131 (login vb)\\OrnekAPI\\SampleAPI\\SampleAPI\\DTOs\\UpdateProductDTO.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\React-ProductManger-main\\OrnekAPI\\SampleAPI\\SampleAPI\\DTOs\\UpdateProductDTO.cs",
               "RelativeToolTip": "SampleAPI\\DTOs\\UpdateProductDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -43,11 +81,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Product.cs",
-              "DocumentMoniker": "F:\\Kodlama\\React Class\\MyFiles\\1.Hafta\\\u00D6devler\\Link \u00C7al\u0131\u015Fmas\u0131 (login vb)\\OrnekAPI\\SampleAPI\\SampleAPI\\Models\\Product.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\React-ProductManger-main\\OrnekAPI\\SampleAPI\\SampleAPI\\Models\\Product.cs",
               "RelativeDocumentMoniker": "SampleAPI\\Models\\Product.cs",
-              "ToolTip": "F:\\Kodlama\\React Class\\MyFiles\\1.Hafta\\\u00D6devler\\Link \u00C7al\u0131\u015Fmas\u0131 (login vb)\\OrnekAPI\\SampleAPI\\SampleAPI\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\React-ProductManger-main\\OrnekAPI\\SampleAPI\\SampleAPI\\Models\\Product.cs",
               "RelativeToolTip": "SampleAPI\\Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -58,22 +96,22 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "F:\\Kodlama\\React Class\\MyFiles\\1.Hafta\\\u00D6devler\\Link \u00C7al\u0131\u015Fmas\u0131 (login vb)\\OrnekAPI\\SampleAPI\\SampleAPI\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\React-ProductManger-main\\OrnekAPI\\SampleAPI\\SampleAPI\\Program.cs",
               "RelativeDocumentMoniker": "SampleAPI\\Program.cs",
-              "ToolTip": "F:\\Kodlama\\React Class\\MyFiles\\1.Hafta\\\u00D6devler\\Link \u00C7al\u0131\u015Fmas\u0131 (login vb)\\OrnekAPI\\SampleAPI\\SampleAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\React-ProductManger-main\\OrnekAPI\\SampleAPI\\SampleAPI\\Program.cs",
               "RelativeToolTip": "SampleAPI\\Program.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAIwHIAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-12T20:19:03.81Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "CreateProductDTO.cs",
-              "DocumentMoniker": "F:\\Kodlama\\React Class\\MyFiles\\1.Hafta\\\u00D6devler\\Link \u00C7al\u0131\u015Fmas\u0131 (login vb)\\OrnekAPI\\SampleAPI\\SampleAPI\\DTOs\\CreateProductDTO.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\React-ProductManger-main\\OrnekAPI\\SampleAPI\\SampleAPI\\DTOs\\CreateProductDTO.cs",
               "RelativeDocumentMoniker": "SampleAPI\\DTOs\\CreateProductDTO.cs",
-              "ToolTip": "F:\\Kodlama\\React Class\\MyFiles\\1.Hafta\\\u00D6devler\\Link \u00C7al\u0131\u015Fmas\u0131 (login vb)\\OrnekAPI\\SampleAPI\\SampleAPI\\DTOs\\CreateProductDTO.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\React-ProductManger-main\\OrnekAPI\\SampleAPI\\SampleAPI\\DTOs\\CreateProductDTO.cs",
               "RelativeToolTip": "SampleAPI\\DTOs\\CreateProductDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

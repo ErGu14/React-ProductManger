@@ -21,51 +21,6 @@ function Home() {
     return (
         <>
            <h1 style={{ textAlign: "center", marginBottom: "20px" }}>Hoş Geldiniz!</h1>
-
-           <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "10px", marginTop: "20px" }}>
-                <button
-                    onClick={NavigateProduct}
-                    style={{
-                        padding: "10px 20px",
-                        backgroundColor: "#4caf50",
-                        color: "#fff",
-                        border: "none",
-                        borderRadius: "5px",
-                        cursor: "pointer",
-                    }}
-                >
-                    Ürünleri Düzenle
-                </button>
-                <button
-                    onClick={() => navigate("/addproduct")}
-                    style={{
-                        padding: "10px 20px",
-                        backgroundColor: "#2196f3",
-                        color: "#fff",
-                        border: "none",
-                        borderRadius: "5px",
-                        cursor: "pointer",
-                    }}
-                >
-                    Ürün Ekle
-                </button>
-                <button
-                    onClick={() => {
-                        navigate("/");
-                    }}
-                    style={{
-                        padding: "10px 20px",
-                        backgroundColor: "#f44336",
-                        color: "#fff",
-                        border: "none",
-                        borderRadius: "5px",
-                        cursor: "pointer",
-                    }}
-                >
-                    Hesaptan Çıkış Yap
-                </button>
-            </div>
-
             <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", marginTop: "30px" }}>
                 {products.map((product, index) => (
                     <div
@@ -94,6 +49,7 @@ function Home() {
                         <h2 style={{ fontSize: "20px", margin: "10px 0" }}>{product.name}</h2>
                         <p style={{ color: "#555", fontSize: "16px", margin: "5px 0" }}>{product.description}</p>
                         <p style={{ fontWeight: "bold", margin: "5px 0" }}>Fiyat: {product.price} TL</p>
+                        <button>Sepe Ekle</button>
                     </div>
                 ))}
             </div>

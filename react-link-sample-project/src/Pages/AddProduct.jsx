@@ -8,10 +8,12 @@ function AddProduct() {
 
     async function handleSubmit(e) {
         e.preventDefault(); // Sayfa yenilenmesini engelle
-        const createdProduct = await CreateProduct(product); // Yeni ürünü oluştur
-        if (createdProduct) {
-            setProduct([]);
-            navigate("/home");
+        const result = await CreateProduct(product); // Yeni ürünü oluştur
+        if(result.isSuccessful){
+            alert(result.data)
+            navigate("/products")
+        }else{
+            alert(result.errorMessages[0])
         }
     }
 
@@ -22,7 +24,7 @@ function AddProduct() {
     return (
         <div style={{ display: "flex", flexDirection: "column", alignItems: "center", marginTop: "20px" }}>
              <button
-                onClick={() => navigate("/Home")}
+                onClick={() => navigate("/products")}
                 style={{
                     padding: "10px 20px",
                     backgroundColor: "#f44336",
